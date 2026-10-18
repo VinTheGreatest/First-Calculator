@@ -51,7 +51,6 @@ const calculate = () => {
             result = preValue * currentValue;
             break;
         case "/":
-            result = preValue / currentValue;
             if(currentValue === 0) {
                 result = preValue / currentValue;
             }else {
